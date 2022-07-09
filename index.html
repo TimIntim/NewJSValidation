@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training project</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/64b98ac62f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="логотип" />
+      </div>
+
+      <div class="image"></div>
+
+      <div class="text">
+        Start for free & get <br />
+        attractive offers today !
+      </div>
+    </div>
+
+    <form id="form" class="form">
+      <div class="social">
+        <div class="title">Get Started</div>
+        
+        <div class="question">
+          Already Have an Account?<br />
+          <span>Sign In</span>
+        </div>
+        
+        <div class="btns">
+          <div class="btn-google btn">
+            <img alt="лого Google" src="https://img.icons8.com/color/30/000000/google-logo.png" />
+            Sign Up
+          </div>
+          
+          <div class="btn-facebook btn">
+            <img alt="лого Facebook" src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" />
+            Sign Up
+          </div>
+        </div>
+        
+        <div class="or">Or</div>
+      </div>
+
+      <div class="input-group">
+        <label for="username" class="label">Username</label>
+        <i class="icon fa-solid fa-user"></i>
+        <input class="input" type="text" name="username" id="username" placeholder="TimIntim" />
+        <i class="icon fa-solid fa-circle-exclamation failure-icon"></i>
+        <i class="icon fa-regular fa-circle-check success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="email" class="label">Email</label>
+        <i class="icon fa-regular fa-envelope"></i>
+        <input class="input" type="email" name="email" id="email" placeholder="abc@gmail.com" />
+        <i class="icon fa-solid fa-circle-exclamation failure-icon"></i>
+        <i class="icon fa-regular fa-circle-check success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <div class="input-group">
+        <label for="password" class="label">Password</label>
+        <i class="icon fa-solid fa-lock"></i>
+        <input class="input" type="password" name="password" id="password" placeholder="Password here" />
+        <i class="icon fa-solid fa-circle-exclamation failure-icon"></i>
+        <i class="icon fa-regular fa-circle-check success-icon"></i>
+        <div class="error"></div>
+      </div>
+
+      <button class="button" id="btn" type="submit">Submit</button>
+
+    </form>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
